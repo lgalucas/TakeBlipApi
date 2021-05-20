@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyNamespace
 {
-    [Route("api/[controller]")]
+    [Route("/[controller]")]
     [ApiController]
     public class Apicontroller : ControllerBase
     {
